@@ -22,4 +22,6 @@ Route::get('/', function () {
 Route::get('/employee', function () {
     return view('Employee');
 });
-
+Route::get('/addEmployee', function () {
+    return view('addEmployee');
+});
