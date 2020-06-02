@@ -27,8 +27,8 @@
 <body>
 <div class="inner-wrapper">
 				
-            
     
+
                 <!-- Header -->
                 <header class="header">
                 
@@ -39,7 +39,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-6">
                                     <div class="logo my-3 my-sm-0">
                                         <a href="index.html">
-                                            <img src="img/logo.png" style="width:200px; height:80px" alt="logo image" class="img-fluid" width="100">
+                                            <img src="assets/img/logo.png" alt="logo image" class="img-fluid" width="100">
                                         </a>
                                     </div>
                                 </div>
@@ -138,9 +138,9 @@
                                             <div class="user-menu-items px-3 m-0">
                                                 <a class="px-0 pb-2 pt-0" href="index.html">
                                                     <span class="media align-items-center">
-                                                  
+                                                        <span class="lnr lnr-home mr-3"></span>
                                                         <span class="media-body text-truncate text-left">
-                                                            <span class="text-truncate text-left">Home</span>
+                                                            <span class="text-truncate text-left">Dashboard</span>
                                                         </span>
                                                     </span>
                                                 </a>
@@ -160,7 +160,14 @@
                                                         </span>
                                                     </span>
                                                 </a>
-                                          
+                                                <a class="p-2" href="calendar.html">
+                                                    <span class="media align-items-center">
+                                                        <span class="lnr lnr-calendar-full mr-3"></span>
+                                                        <span class="media-body text-truncate text-left">
+                                                            <span class="text-truncate text-left">Calendar</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
                                                 <a class="p-2" href="leave.html">
                                                     <span class="media align-items-center">
                                                         <span class="lnr lnr-briefcase mr-3"></span>
@@ -194,7 +201,14 @@
                                                     </span>
                                                 </a>
                                                 
-                                           
+                                                <a class="p-2" href="settings.html">
+                                                    <span class="media align-items-center">
+                                                        <span class="lnr lnr-cog mr-3"></span>
+                                                        <span class="media-body text-truncate text-left">
+                                                            <span class="text-truncate text-left">Settings</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
                                                 <a class="p-2" href="employment.html">
                                                     <span class="media align-items-center">
                                                         <span class="lnr lnr-user mr-3"></span>
@@ -258,7 +272,7 @@
                                                 <img src="assets/img/profiles/img-13.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100">
                                             </div>
                                             <div class="user-details">
-                                                <h4><b>Welcome </b></h4>
+                                                <h4><b>Welcome Admin</b></h4>
                                                 <p>Sun, 29 Nov 2019</p>
                                             </div>
                                         </div>
@@ -269,33 +283,32 @@
                                             <div class="card-body">
                                                 <div class="row no-gutters">
                                                     <div class="col-6 align-items-center text-center">
-                                                 
-                                                   <a href="index.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top">   <i class='fas fa-home' style='font-size:24px'></i><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Home</span></a>												
-                                                    </div>
-                                                   
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Employee</span></a>												
-                                                    </div>
-                                                   
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="leave.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="reviews.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="reports.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="manage.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="settings.html" class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>												
-                                                    </div>
-                                                   
+                                                         
+                                                        <a href="index.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top">   <i class='fas fa-home' style='font-size:24px'></i><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Home</span></a>												
+                                                         </div>
+                                                        
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Employee</span></a>												
+                                                         </div>
+                                                        
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="leave.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="reviews.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="reports.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="manage.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="settings.html" class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>												
+                                                         </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -305,223 +318,363 @@
                                     
                                 </aside>
                             </div>
-                            <div class="col-xl-9 col-lg-8 col-md-12">
-                    <div class="quicklink-sidebar-menu ctm-border-radius shadow-sm grow bg-white card">
-                        <div class="card-body">
-                            <ul class="list-group list-group-horizontal-lg">
-                                <li class="list-group-item text-center active button-5"><a href="employees.html" class="text-white">All</a></li>
-                                <li class="list-group-item text-center button-6"><a class="text-dark" href="employees-team.html">Teams</a></li>
-                                <li class="list-group-item text-center button-6"><a class="text-dark" href="employees-offices.html">Offices</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card shadow-sm grow ctm-border-radius">
-                        <div class="card-body align-center">
-                            <h4 class="card-title float-left mb-0 mt-2">7 People</h4>
-                            <ul class="nav nav-tabs float-right border-0 tab-list-emp">
-                                <li class="nav-item">
-                                    <a class="nav-link active border-0 font-23 grid-view" href="employees.html"><i class="fa fa-th-large" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link border-0 font-23 list-view" href="employees-list.html"><i class="fa fa-list-ul" aria-hidden="true"></i></a>
-                                </li>
-                                <li class="nav-item pl-3">
-                                    <a href="add-employee.html" class="btn btn-theme button-1 text-white ctm-border-radius p-2 add-person ctm-btn-padding"><i class="fa fa-plus"></i> Add Person</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="ctm-border-radius shadow-sm grow card">
-                        <div class="card-body">
-                        
-                            <!--Content tab-->
-                            <div class="row people-grid-row">
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-6.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Maria Cotton</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>PHP Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">mariacotton@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-5.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Danny Ward</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>Designing Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">dannyward@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-4.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Linda Craver</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>IOS Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">lindacraver@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-3.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Jenni Sims</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>Android Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">jennisims@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-2.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">John Gibbs</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>	Business Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">johndrysdale@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-8.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Stacey Linville</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>	Testing Team Lead</b></p>
-                                                            <p class="mb-0 ctm-text-sm">staceylinville@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile last-card-row">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-10.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Richard Wilson</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>	Operation Manager</b></p>
-                                                            <p class="mb-0 ctm-text-sm">richardwilson@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile last-card-row">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-15.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Daniel Griffing</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>	Designing Team</b></p>
-                                                            <p class="mb-0 ctm-text-sm">danielgriffing@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="card widget-profile last-card-row1">
-                                        <div class="card-body">
-                                            <div class="pro-widget-content text-center">
-                                                <div class="profile-info-widget">
-                                                    <a href="employment.html" class="booking-doc-img">
-                                                        <img src="assets/img/profiles/img-14.jpg" alt="User Image">
-                                                    </a>
-                                                    <div class="profile-det-info">
-                                                        <h4><a href="employment.html" class="text-primary">Michelle Fairfax</a></h4>
-                                                        <div>
-                                                            <p class="mb-0"><b>PHP Team</b></p>
-                                                            <p class="mb-0 ctm-text-sm">michellefairfax@example.com</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            
                             <div class="col-xl-9 col-lg-8  col-md-12">
-                     
+                                <div class="quicklink-sidebar-menu ctm-border-radius shadow-sm bg-white card grow">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-horizontal-lg">
+                                                <li class="list-group-item text-center active button-5"><a href="index.html" class="text-white">Admin Dashboard</a></li>
+                                                <li class="list-group-item text-center button-6"><a class="text-dark" href="employees-dashboard.html">Employees Dashboard</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                <!-- Widget -->
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div class="card dash-widget ctm-border-radius shadow-sm grow">
+                                            <div class="card-body">
+                                                <div class="card-icon bg-primary">
+                                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="card-right">
+                                                    <h4 class="card-title">Employees</h4>
+                                                    <p class="card-text">700</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="card dash-widget ctm-border-radius shadow-sm grow">
+                                            <div class="card-body">
+                                                <div class="card-icon bg-warning">
+                                                    <i class="fa fa-building-o"></i>
+                                                </div>
+                                                <div class="card-right">
+                                                    <h4 class="card-title">Companies</h4>
+                                                    <p class="card-text">30</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="card dash-widget ctm-border-radius shadow-sm grow">
+                                            <div class="card-body">
+                                                <div class="card-icon bg-danger">
+                                                    <i class="fa fa-suitcase" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="card-right">
+                                                    <h4 class="card-title">Leaves</h4>
+                                                    <p class="card-text">3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-sm-6 col-12">
+                                        <div class="card dash-widget ctm-border-radius shadow-sm grow">
+                                            <div class="card-body">
+                                                <div class="card-icon bg-success">
+                                                    <i class="fa fa-money" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="card-right">
+                                                    <h4 class="card-title">Salary</h4>
+                                                    <p class="card-text">$5.8M</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / Widget -->
+                                
+                                <!-- Chart -->
+                                <div class="row">
+                                    <div class="col-md-6 d-flex">
+                                        <div class="card ctm-border-radius shadow-sm flex-fill grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0">Total Employees</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <canvas id="pieChart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex">
+                                        <div class="card ctm-border-radius shadow-sm flex-fill grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0">Total Salary By Unit</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <canvas id="lineChart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / Chart -->
+                                
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card ctm-border-radius shadow-sm grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0 d-inline-block">Today</h4>
+                                                <a href="javascript:void(0)" class="d-inline-block float-right text-primary"><i class="lnr lnr-sync"></i></a>
+                                            </div>
+                                            <div class="card-body recent-activ">
+                                                <div class="recent-comment">
+                                                    <a href="javascript:void(0)" class="dash-card text-dark">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon text-primary">
+                                                                <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">No Birthdays Today</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-dark">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon text-warning">
+                                                                <i class="fa fa-bed" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Ralph Baker is off sick today</h6>
+                                                            </div>
+                                                            <div class="dash-card-avatars">
+                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-9.jpg" alt="Avatar"></div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-dark">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon text-success">
+                                                                <i class="fa fa-child" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Ralph Baker is parenting leave today</h6>
+                                                            </div>
+                                                            <div class="dash-card-avatars">
+                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-9.jpg" alt="Avatar"></div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-dark">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon text-danger">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Danny ward is away today</h6>
+                                                            </div>
+                                                            <div class="dash-card-avatars">
+                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Avatar"></div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-dark">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon text-pink">
+                                                                <i class="fa fa-home" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">You are working from home today</h6>
+                                                            </div>
+                                                            <div class="dash-card-avatars">
+                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-6.jpg" alt="Maria Cotton"></div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 d-flex">
+                                    
+                                        <!-- Team Leads List -->
+                                        <div class="card flex-fill team-lead shadow-sm grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0 d-inline-block">Team Leads </h4>
+                                                <a href="employees.html" class="dash-card float-right mb-0 text-primary">Manage Team </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="media mb-3">
+                                                    <div class="e-avatar avatar-online mr-3"><img src="assets/img/profiles/img-6.jpg" alt="Maria Cotton" class="img-fluid"></div>
+                                                    <div class="media-body">
+                                                        <h6 class="m-0">Maria Cotton</h6>
+                                                        <p class="mb-0 ctm-text-sm">PHP</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="media mb-3">
+                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Linda Craver"></div>
+                                                    <div class="media-body">
+                                                        <h6 class="m-0">Danny Ward</h6>
+                                                        <p class="mb-0 ctm-text-sm">Design</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="media mb-3">
+                                                    <div class="e-avatar avatar-online mr-3"><img src="assets/img/profiles/img-4.jpg" alt="Linda Craver" class="img-fluid"></div>
+                                                    <div class="media-body">
+                                                        <h6 class="m-0">Linda Craver</h6>
+                                                        <p class="mb-0 ctm-text-sm">IOS</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="media mb-3">
+                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="assets/img/profiles/img-3.jpg" alt="Linda Craver"></div>
+                                                    <div class="media-body">
+                                                        <h6 class="m-0">Jenni Sims</h6>
+                                                        <p class="mb-0 ctm-text-sm">Android</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="media">
+                                                    <div class="e-avatar avatar-offline mr-3"><img class="img-fluid" src="assets/img/profiles/img-2.jpg" alt="Linda Craver"></div>
+                                                    <div class="media-body">
+                                                        <h6 class="m-0">John Gibbs</h6>
+                                                        <p class="mb-0 ctm-text-sm">Business</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-12 d-flex">
+                                    
+                                        <!-- Recent Activities -->
+                                        <div class="card recent-acti flex-fill shadow-sm grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0 d-inline-block">Recent Activities</h4>
+                                                <a href="javascript:void(0)" class="d-inline-block float-right text-primary"><i class="lnr lnr-sync"></i></a>
+                                            </div>
+                                            <div class="card-body recent-activ admin-activ">
+                                                <div class="recent-comment">
+                                                    <div class="notice-board">
+                                                        <div class="table-img">
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Danny Ward"></div>
+                                                        </div>
+                                                        <div class="notice-body">
+                                                            <h6 class="mb-0">Lorem ipsum dolor sit amet, id id quo eruditi eloquentiam.</h6>
+                                                            <span class="ctm-text-sm">Danny Ward | 1 hour ago</span>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="notice-board">
+                                                        <div class="table-img">
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-2.jpg" alt="John Gibbs"></div>
+                                                        </div>
+                                                        <div class="notice-body">
+                                                            <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
+                                                            <span class="ctm-text-sm">John Gibbs | 2 hour ago</span>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="notice-board">
+                                                        <div class="table-img">
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-6.jpg" alt="Maria Cotton"></div>
+                                                        </div>
+                                                        <div class="notice-body">
+                                                            <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
+                                                            <span class="ctm-text-sm">Maria Cotton | 4 hour ago</span>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="notice-board">
+                                                        <div class="table-img">
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-4.jpg" alt="Linda Craver"></div>
+                                                        </div>
+                                                        <div class="notice-body">
+                                                            <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
+                                                            <span class="ctm-text-sm">Linda Craver | 5 hour ago</span>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="notice-board">
+                                                        <div class="table-img">
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-3.jpg" alt="Jenni Sims"></div>
+                                                        </div>
+                                                        <div class="notice-body">
+                                                            <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
+                                                            <span class="ctm-text-sm">Jenni Sims | 6 hour ago</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- / Recent Activities -->
+                                    
+                                    <div class="col-lg-6 col-md-12 d-flex">
+                                    
+                                        <!-- Today -->
+                                        <div class="card flex-fill today-list shadow-sm grow">
+                                            <div class="card-header">
+                                                <h4 class="card-title mb-0 d-inline-block">Your Upcoming Leave</h4>
+                                                <a href="leave.html" class="d-inline-block float-right text-primary"><i class="fa fa-suitcase"></i></a>
+                                            </div>
+                                            <div class="card-body recent-activ">
+                                                <div class="recent-comment">
+                                                    <a href="javascript:void(0)" class="dash-card text-danger">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Mon, 16 Dec 2019</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-primary">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Fri, 20 Dec 2019</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-primary">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Wed, 25 Dec 2019</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-primary">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Fri, 27 Dec 2019</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <hr>
+                                                    <a href="javascript:void(0)" class="dash-card text-primary">
+                                                        <div class="dash-card-container">
+                                                            <div class="dash-card-icon">
+                                                                <i class="fa fa-suitcase"></i>
+                                                            </div>
+                                                            <div class="dash-card-content">
+                                                                <h6 class="mb-0">Tue, 31 Dec 2019</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -533,4 +686,14 @@
             
             <div class="sidebar-overlay" id="sidebar_overlay"></div>
 </body>
+<script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/js/jquery-3.2.1.min.js"></script>
+<script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/js/popper.min.js"></script>
+		<script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/js/bootstrap.min.js"></script>
+        <script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>		
+		
+        <script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>	
+        <script src="http://dreamguys.co.in/demo/dleohr/template-1/dleohr-vertical/assets/js/script.js"></script>
+
+
+
 </html>
