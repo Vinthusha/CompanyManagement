@@ -25,3 +25,12 @@ Route::get('/employee', function () {
 Route::get('/addEmployee', function () {
     return view('addEmployee');
 });
+Route::get('company', function () {
+    return view('Company');
+});
+Route::get('leave', function () {
+    return view('Leave');
+});
+Route::get('teamreports', function () {
+    return view('TeamReports');
+});

@@ -306,193 +306,234 @@
                                 </aside>
                             </div>
                             
-                            <div class="col-xl-9 col-lg-8  col-md-12">
-                            <div class="col-xl-9 col-lg-8  col-md-12">
+                            <div class="col-xl-9 col-lg-8 col-md-12">
                     
-                    <div class="accordion add-employee" id="accordion-details">
-                        <div class="card shadow-sm grow ctm-border-radius">
-                            <div class="card-header" id="basic1">
-                                <h4 class="cursor-pointer mb-0">
-                                    <a class=" coll-arrow d-block text-dark" href="javascript:void(0)" data-toggle="collapse" data-target="#basic-one" aria-expanded="true">
-                                        Basic Details
-                                    <br><span class="ctm-text-sm">Organized and secure.</span>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div class="card-body p-0">
-                                <div id="basic-one" class="collapse show ctm-padding" aria-labelledby="basic1" data-parent="#accordion-details">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col form-group">
-                                                <input type="text" class="form-control" placeholder="First Name">
-                                            </div>
-                                            <div class="col form-group">
-                                                <input type="text" class="form-control" placeholder="Last Name">
-                                            </div>
-                                            <div class="col-12 form-group">
-                                                <input type="email" class="form-control" placeholder="Email">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class=" custom-control custom-checkbox mb-0">
-                                                    <input type="checkbox" id="send-email" name="send-email" class="custom-control-input">
-                                                    <label class="mb-0 custom-control-label" for="send-email">Send them an invite email so they can log in immediately</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card shadow-sm grow ctm-border-radius">
-                            <div class="card-header" id="headingTwo">
-                                <h4 class="cursor-pointer mb-0">
-                                    <a class="coll-arrow d-block text-dark" href="javascript:void(0)" data-toggle="collapse" data-target="#employee-det">
-                                        Employment Details
-                                    <br><span class="ctm-text-sm">Let everyone know the essentials so they're fully prepared.</span>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div class="card-body p-0">
-                                <div id="employee-det" class="collapse show ctm-padding" aria-labelledby="headingTwo" data-parent="#accordion-details">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-md-12 form-group">
-                                                <select class="form-control select">
-                                                    <option selected>Country of Employment </option>
-                                                    <option value="1">country1</option>
-                                                    <option value="2">country2</option>
-                                                    <option value="3">country3</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-12 form-group">
-                                                <div class="cal-icon">
-                                                    <input class="form-control datetimepicker cal-icon-input" type="text" placeholder="Start Date">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 form-group">
-                                                <input type="text" class="form-control" placeholder="Job Title">
-                                            </div>
-                                            <div class="col-12 form-group mb-0">
-                                                <p class="mb-2">Employment Type</p>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="Permanent" name="Permanent" checked>
-                                                    <label class="custom-control-label" for="Permanent">Permanent</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="Freelancer" name="Permanent">
-                                                    <label class="custom-control-label" for="Freelancer">Freelancer</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card shadow-sm grow ctm-border-radius">
-                            <div class="card-header" id="headingThree">
-                                <h4 class="cursor-pointer mb-0">
-                                    <a class="coll-arrow d-block text-dark" href="javascript:void(0)" data-toggle="collapse" data-target="#term-office">
-                                    Teams and Offices
-                                    <br><span class="ctm-text-sm">Keep things tidy — and save time setting approvers and public holidays.</span>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div class="card-body p-0">
-                                <div id="term-office" class="collapse show ctm-padding" aria-labelledby="headingThree" data-parent="#accordion-details">
-                                    <div class="row">
-                                        <div class="col-md-12 form-group">
-                                            <select class="form-control select">
-                                                <option selected>Teams </option>
-                                                <option value="1">PHP</option>
-                                                <option value="2">Android</option>
-                                                <option value="3">Testing</option>
-                                                <option value="3">Designing</option>
-                                                <option value="3">IOS</option>
-                                                <option value="3">Business</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-12 form-group">
-                                            <select class="form-control select">
-                                                <option selected>Line Manager</option>
-                                                <option value="1">Robert Wilson</option>
-                                                <option value="2">Maria Cotton</option>
-                                                <option value="3">Danny Ward</option>
-                                                <option value="4">Linda Craver</option>
-                                                <option value="5">Jenni Sims</option>
-                                                <option value="6">John Gibbs</option>
-                                                <option value="7">Stacey Linville</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-12 form-group mb-0">
-                                            <select class="form-control select">
-                                                <option selected>Office Name</option>
-                                                <option value="1">Focus Technology</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card shadow-sm grow ctm-border-radius">
-                            <div class="card-header" id="headingFour">
-                                <h4 class="cursor-pointer mb-0">
-                                    <a class="coll-arrow d-block text-dark" href="javascript:void(0)" data-toggle="collapse" data-target="#salary_det">
-                                    Salary Details
-                                    <br><span class="ctm-text-sm">Stored securely, only visible to Super Admins, Payroll Admins, and themselves.</span>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div class="card-body p-0">
-                                <div id="salary_det" class="collapse show ctm-padding" aria-labelledby="headingFour" data-parent="#accordion-details">
-                                    <div class="row">
-                                        <div class="col-md-12 form-group">
-                                            <select class="form-control select">
-                                                <option selected>Currency </option>
-                                                <option value="1">$</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Amount">
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <select class="form-control select">
-                                                <option selected>Frequency</option>
-                                                <option value="1">Annualy</option>
-                                                <option value="2">Monthly</option>
-                                                <option value="3">Weekly</option>
-                                                <option value="4">Daily</option>
-                                                <option value="5">Hourly</option>
-                                                <option value="6">Fixed</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-12 form-group mb-0">
-                                            <div class="cal-icon">
-                                                <input class="form-control datetimepicker cal-icon-input" type="text" placeholder="Start Date">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="row">
-                        <div class="col-12">
-                            <div class="submit-section text-center btn-add">
-                                <button class="btn btn-theme text-white ctm-border-radius button-1">Add Team Member</button>
+                        <div class="col-md-12">
+                            <div class="card ctm-border-radius shadow-sm grow">
+                                <div class="card-header">
+                                    <h4 class="card-title mb-0">Apply Leaves</h4>
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>
+                                                    Leave Type
+                                                    <span class="text-danger">*</span>
+                                                    </label>
+                                                    <select class="form-control select">
+                                                        <option>Select Leave</option>
+                                                        <option>Working From Home</option>
+                                                        <option>Sick Leave</option>
+                                                        <option>Parental Leave</option>
+                                                        <option>Annual Leave</option>
+                                                        <option>Normal Leave</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 leave-col">
+                                                <div class="form-group">
+                                                    <label>Remaining Leaves</label>
+                                                    <input type="text" class="form-control" placeholder="10" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>From</label>
+                                                    <input type="text" class="form-control datetimepicker">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 leave-col">
+                                                <div class="form-group">
+                                                    <label>To</label>
+                                                    <input type="text" class="form-control datetimepicker">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>
+                                                    Half Day
+                                                    <span class="text-danger">*</span>
+                                                    </label>
+                                                    <select class="form-control select">
+                                                        <option>Select</option>
+                                                        <option>First Half</option>
+                                                        <option>Second Half</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 leave-col">
+                                                <div class="form-group">
+                                                    <label>Number of Days Leave</label>
+                                                    <input type="text" class="form-control" placeholder="2" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group mb-0">
+                                                    <label>Reason</label>
+                                                    <textarea class="form-control" rows=4></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="javascript:void(0);" class="btn btn-theme button-1 text-white ctm-border-radius mt-4">Apply</a>
+                                            <a href="javascript:void(0);" class="btn btn-danger text-white ctm-border-radius mt-4">Cancel</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card ctm-border-radius shadow-sm grow">
+                                <div class="card-header">
+                                    <h4 class="card-title mb-0">Leave Details</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="employee-office-table">
+                                        <div class="table-responsive">
+                                            <table class="table custom-table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Date</th>
+                                                        <th>Total Employees</th>
+                                                        <th>First Half</th>
+                                                        <th>Second Half</th>
+                                                        <th>Working From Home</th>
+                                                        <th>Absent</th>
+                                                        <th>Today Aways</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>05 May 2019</td>
+                                                        <td>7</td>
+                                                        <td>6</td>
+                                                        <td>6</td>
+                                                        <td>1</td>
+                                                        <td>0</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card ctm-border-radius shadow-sm grow">
+                                <div class="card-header">
+                                    <h4 class="card-title mb-0">Today Leaves</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="employee-office-table">
+                                        <div class="table-responsive">
+                                            <table class="table custom-table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Employee</th>
+                                                        <th>Leave Type</th>
+                                                        <th>From</th>
+                                                        <th>To</th>
+                                                        <th>Days</th>
+                                                        <th>Remaining Days</th>
+                                                        <th>Notes</th>
+                                                        <th>Status</th>
+                                                        <th class="text-right">Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="employment.html" class="avatar"><img alt="avatar image" src="assets/img/profiles/img-5.jpg" class="img-fluid"></a>
+                                                            <h2><a href="employment.html">Danny Ward</a></h2>
+                                                        </td>
+                                                        <td>Parental Leave</td>
+                                                        <td>05 Dec 2019</td>
+                                                        <td>07 Dec 2019</td>
+                                                        <td>3</td>
+                                                        <td>9</td>
+                                                        <td>Parenting Leave</td>
+                                                        <td><a href="javascript:void(0)" class="btn btn-theme ctm-border-radius text-white btn-sm">Approved</a></td>
+                                                        <td class="text-right text-danger"><a href="javascript:void(0);" class="btn btn-sm btn-outline-danger" data-toggle="modal" data-target="#delete">
+                                                            <span class="lnr lnr-trash"></span> Delete
+                                                        </a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="employment.html" class="avatar"><img src="assets/img/profiles/img-4.jpg" alt="Linda Craver" class="img-fluid"></a>
+                                                            <h2><a href="employment.html">Linda Craver</a></h2>
+                                                        </td>
+                                                        <td>Sick Leave</td>
+                                                        <td>05 Dec 2019</td>
+                                                        <td>05 Dec 2019</td>
+                                                        <td>1</td>
+                                                        <td>11</td>
+                                                        <td>Going to Hospital</td>
+                                                        <td><a href="javascript:void(0)" class="btn btn-theme ctm-border-radius text-white btn-sm">Approved</a></td>
+                                                        <td class="text-right text-danger"><a href="javascript:void(0);" class="btn btn-sm btn-outline-danger" data-toggle="modal" data-target="#delete">
+                                                            <span class="lnr lnr-trash"></span> Delete
+                                                        </a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="employment.html" class="avatar"><img src="assets/img/profiles/img-3.jpg" alt="Jenni Sims" class="img-fluid"></a>
+                                                            <h2><a href="employment.html">Jenni Sims</a></h2>
+                                                        </td>
+                                                        <td>Working From Home</td>
+                                                        <td>05 Dec 2019</td>
+                                                        <td>05 Dec 2019</td>
+                                                        <td>1</td>
+                                                        <td>11</td>
+                                                        <td>Raining</td>
+                                                        <td><a href="javascript:void(0)" class="btn btn-theme ctm-border-radius text-white btn-sm">Approved</a></td>
+                                                        <td class="text-right text-danger"><a href="javascript:void(0);" class="btn btn-sm btn-outline-danger" data-toggle="modal" data-target="#delete">
+                                                            <span class="lnr lnr-trash"></span> Delete
+                                                        </a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/Content-->
-                
             </div>
-            <!-- Inner Wrapper -->
-            
-            <div class="sidebar-overlay" id="sidebar_overlay"></div>
+        </div>
+    </div>
+    <!--/Content-->
+    
+</div>
+<!-- Inner Wrapper -->
+
+<div class="sidebar-overlay" id="sidebar_overlay"></div>
+
+<!--Delete The Modal -->
+<div class="modal fade" id="delete">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        
+            <!-- Modal body -->
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title mb-3">Are You Sure Want to Delete?</h4>
+                <button type="button" class="btn btn-danger ctm-border-radius text-white text-center mb-2 mr-3" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-theme ctm-border-radius text-white text-center mb-2 button-1" data-dismiss="modal">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+        
 </body>
 
 

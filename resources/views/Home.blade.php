@@ -39,7 +39,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-6">
                                     <div class="logo my-3 my-sm-0">
                                         <a href="index.html">
-                                            <img src="assets/img/logo.png" alt="logo image" class="img-fluid" width="100">
+                                            <img src="/img/logo.png" style="width:200px; height:130px;" alt="logo image" class="img-fluid" width="100">
                                         </a>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                                 <div class="user-info align-right dropdown d-inline-block header-dropdown">
                                                     <a href="javascript:void(0)" data-toggle="dropdown" class=" menu-style dropdown-toggle">
                                                         <div class="user-avatar d-inline-block">
-                                                            <img src="assets/img/profiles/img-6.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
+                                                            <img src="/memimg/pethu.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
                                                         </div>
                                                     </a>
                                                     
@@ -269,7 +269,7 @@
                                     <div class="user-card card shadow-sm bg-white text-center ctm-border-radius grow">
                                         <div class="user-info card-body">
                                             <div class="user-avatar mb-4">
-                                                <img src="assets/img/profiles/img-13.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100">
+                                                <img src="memimg/userAkkachi.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100">
                                             </div>
                                             <div class="user-details">
                                                 <h4><b>Welcome Admin</b></h4>
@@ -386,28 +386,8 @@
                                 <!-- / Widget -->
                                 
                                 <!-- Chart -->
-                                <div class="row">
-                                    <div class="col-md-6 d-flex">
-                                        <div class="card ctm-border-radius shadow-sm flex-fill grow">
-                                            <div class="card-header">
-                                                <h4 class="card-title mb-0">Total Employees</h4>
-                                            </div>
-                                            <div class="card-body">
-                                                <canvas id="pieChart"></canvas>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-flex">
-                                        <div class="card ctm-border-radius shadow-sm flex-fill grow">
-                                            <div class="card-header">
-                                                <h4 class="card-title mb-0">Total Salary By Unit</h4>
-                                            </div>
-                                            <div class="card-body">
-                                                <canvas id="lineChart"></canvas>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                             
+                              
                                 <!-- / Chart -->
                                 
                                 <div class="row">
@@ -436,10 +416,10 @@
                                                                 <i class="fa fa-bed" aria-hidden="true"></i>
                                                             </div>
                                                             <div class="dash-card-content">
-                                                                <h6 class="mb-0">Ralph Baker is off sick today</h6>
+                                                                <h6 class="mb-0">Sanjsigan is off sick today</h6>
                                                             </div>
                                                             <div class="dash-card-avatars">
-                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-9.jpg" alt="Avatar"></div>
+                                                                <div class="e-avatar"><img class="img-fluid" src="memimg/thambi.jpg" alt="Avatar"></div>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -450,10 +430,10 @@
                                                                 <i class="fa fa-child" aria-hidden="true"></i>
                                                             </div>
                                                             <div class="dash-card-content">
-                                                                <h6 class="mb-0">Ralph Baker is parenting leave today</h6>
+                                                                <h6 class="mb-0">Mathunujan is parenting leave today</h6>
                                                             </div>
                                                             <div class="dash-card-avatars">
-                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-9.jpg" alt="Avatar"></div>
+                                                                <div class="e-avatar"><img class="img-fluid" src="memimg/mathu.jpg" alt="Avatar"></div>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -464,10 +444,10 @@
                                                                 <i class="fa fa-suitcase"></i>
                                                             </div>
                                                             <div class="dash-card-content">
-                                                                <h6 class="mb-0">Danny ward is away today</h6>
+                                                                <h6 class="mb-0">Logitha is away today</h6>
                                                             </div>
                                                             <div class="dash-card-avatars">
-                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Avatar"></div>
+                                                                <div class="e-avatar"><img class="img-fluid" src="memimg/logi.jpg" alt="Avatar"></div>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -481,7 +461,7 @@
                                                                 <h6 class="mb-0">You are working from home today</h6>
                                                             </div>
                                                             <div class="dash-card-avatars">
-                                                                <div class="e-avatar"><img class="img-fluid" src="assets/img/profiles/img-6.jpg" alt="Maria Cotton"></div>
+                                                                <div class="e-avatar"><img class="img-fluid" src="memimg/pethu.jpg" alt="Maria Cotton"></div>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -499,41 +479,41 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="media mb-3">
-                                                    <div class="e-avatar avatar-online mr-3"><img src="assets/img/profiles/img-6.jpg" alt="Maria Cotton" class="img-fluid"></div>
+                                                    <div class="e-avatar avatar-online mr-3"><img src="memimg/thanojika.jpg" alt="Maria Cotton" class="img-fluid"></div>
                                                     <div class="media-body">
-                                                        <h6 class="m-0">Maria Cotton</h6>
+                                                        <h6 class="m-0">Thanojika</h6>
                                                         <p class="mb-0 ctm-text-sm">PHP</p>
                                                     </div>
                                                 </div>
                                                 <hr>
                                                 <div class="media mb-3">
-                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Linda Craver"></div>
+                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="memimg/thambi.jpg" alt="Linda Craver"></div>
                                                     <div class="media-body">
-                                                        <h6 class="m-0">Danny Ward</h6>
+                                                        <h6 class="m-0">Sanjsigan</h6>
                                                         <p class="mb-0 ctm-text-sm">Design</p>
                                                     </div>
                                                 </div>
                                                 <hr>
                                                 <div class="media mb-3">
-                                                    <div class="e-avatar avatar-online mr-3"><img src="assets/img/profiles/img-4.jpg" alt="Linda Craver" class="img-fluid"></div>
+                                                    <div class="e-avatar avatar-online mr-3"><img src="memimg/vijay.jpg" alt="Linda Craver" class="img-fluid"></div>
                                                     <div class="media-body">
-                                                        <h6 class="m-0">Linda Craver</h6>
+                                                        <h6 class="m-0">Vijay</h6>
                                                         <p class="mb-0 ctm-text-sm">IOS</p>
                                                     </div>
                                                 </div>
                                                 <hr>
                                                 <div class="media mb-3">
-                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="assets/img/profiles/img-3.jpg" alt="Linda Craver"></div>
+                                                    <div class="e-avatar avatar-online mr-3"><img class="img-fluid" src="memimg/logi.jpg" alt="Linda Craver"></div>
                                                     <div class="media-body">
-                                                        <h6 class="m-0">Jenni Sims</h6>
+                                                        <h6 class="m-0">Logitha</h6>
                                                         <p class="mb-0 ctm-text-sm">Android</p>
                                                     </div>
                                                 </div>
                                                 <hr>
                                                 <div class="media">
-                                                    <div class="e-avatar avatar-offline mr-3"><img class="img-fluid" src="assets/img/profiles/img-2.jpg" alt="Linda Craver"></div>
+                                                    <div class="e-avatar avatar-offline mr-3"><img class="img-fluid" src="memimg/anchayan.jpg" alt="Linda Craver"></div>
                                                     <div class="media-body">
-                                                        <h6 class="m-0">John Gibbs</h6>
+                                                        <h6 class="m-0">Anchayan</h6>
                                                         <p class="mb-0 ctm-text-sm">Business</p>
                                                     </div>
                                                 </div>
@@ -553,51 +533,51 @@
                                                 <div class="recent-comment">
                                                     <div class="notice-board">
                                                         <div class="table-img">
-                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-5.jpg" alt="Danny Ward"></div>
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="memimg/mathu.jpg" alt="Danny Ward"></div>
                                                         </div>
                                                         <div class="notice-body">
                                                             <h6 class="mb-0">Lorem ipsum dolor sit amet, id id quo eruditi eloquentiam.</h6>
-                                                            <span class="ctm-text-sm">Danny Ward | 1 hour ago</span>
+                                                            <span class="ctm-text-sm">Mathunujan | 1 hour ago</span>
                                                         </div>
                                                     </div>
                                                     <hr>
                                                     <div class="notice-board">
                                                         <div class="table-img">
-                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-2.jpg" alt="John Gibbs"></div>
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="memimg/pethu.jpg" alt="John Gibbs"></div>
                                                         </div>
                                                         <div class="notice-body">
                                                             <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
-                                                            <span class="ctm-text-sm">John Gibbs | 2 hour ago</span>
+                                                            <span class="ctm-text-sm">Pethu  | 2 hour ago</span>
                                                         </div>
                                                     </div>
                                                     <hr>
                                                     <div class="notice-board">
                                                         <div class="table-img">
-                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-6.jpg" alt="Maria Cotton"></div>
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="memimg/vijay.jpg" alt="Maria Cotton"></div>
                                                         </div>
                                                         <div class="notice-body">
                                                             <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
-                                                            <span class="ctm-text-sm">Maria Cotton | 4 hour ago</span>
+                                                            <span class="ctm-text-sm">Vijay | 4 hour ago</span>
                                                         </div>
                                                     </div>
                                                     <hr>
                                                     <div class="notice-board">
                                                         <div class="table-img">
-                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-4.jpg" alt="Linda Craver"></div>
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="memimg/logi.jpg" alt="Linda Craver"></div>
                                                         </div>
                                                         <div class="notice-body">
                                                             <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
-                                                            <span class="ctm-text-sm">Linda Craver | 5 hour ago</span>
+                                                            <span class="ctm-text-sm">Logitha  | 5 hour ago</span>
                                                         </div>
                                                     </div>
                                                     <hr>
                                                     <div class="notice-board">
                                                         <div class="table-img">
-                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="assets/img/profiles/img-3.jpg" alt="Jenni Sims"></div>
+                                                            <div class="e-avatar mr-3"><img class="img-fluid" src="memimg/thambi.jpg" alt="Jenni Sims"></div>
                                                         </div>
                                                         <div class="notice-body">
                                                             <h6 class="mb-0">Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.</h6>
-                                                            <span class="ctm-text-sm">Jenni Sims | 6 hour ago</span>
+                                                            <span class="ctm-text-sm">sanjsigan  | 6 hour ago</span>
                                                         </div>
                                                     </div>
                                                 </div>
