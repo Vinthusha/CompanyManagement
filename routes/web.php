@@ -34,3 +34,27 @@ Route::get('leave', function () {
 Route::get('teamreports', function () {
     return view('TeamReports');
 });
+Route::get('createview', function () {
+    return view('Createview');
+});
+Route::get('editreview', function () {
+    return view('EditReview');
+});
+Route::get('emailreport', function () {
+    return view('EmailReport');
+});
+Route::get('reviews', function () {
+    return view('Reviews');
+});
+Route::get('settingreview', function () {
+    return view('SettigReview');
+});
+Route::get('workhome', function () {
+    return view('WorkHome');
+});
+Route::get('leavereport', function () {
+    return view('LeaveReport');
+});
+Route::view('/signup', "Signup");
+
+Route::get('/store' ,"SignupController@store");

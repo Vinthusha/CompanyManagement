@@ -72,7 +72,7 @@
                                                 <div class="user-info align-right dropdown d-inline-block header-dropdown">
                                                     <a href="javascript:void(0)" data-toggle="dropdown" class=" menu-style dropdown-toggle">
                                                         <div class="user-avatar d-inline-block">
-                                                            <img src="assets/img/profiles/img-6.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
+                                                            <img src="memimg/pethu.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
                                                         </div>
                                                     </a>
                                                     
@@ -122,7 +122,7 @@
                                             <div class="user-info align-center bg-theme text-center">
                                                 <a href="javascript:void(0)" class="d-block menu-style text-white">
                                                     <div class="user-avatar d-inline-block mr-3">
-                                                        <img src="assets/img/profiles/img-6.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
+                                                        <img src="memimg/pethu.jpg" alt="user avatar" class="rounded-circle img-fluid" width="55">
                                                     </div>
                                                 </a>
                                             </div>
@@ -255,7 +255,7 @@
                                     <div class="user-card card shadow-sm bg-white text-center ctm-border-radius grow">
                                         <div class="user-info card-body">
                                             <div class="user-avatar mb-4">
-                                                <img src="assets/img/profiles/img-13.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100">
+                                                <img src="memimg/userAkkachi.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100">
                                             </div>
                                             <div class="user-details">
                                                 <h4><b>Welcome </b></h4>
@@ -269,37 +269,37 @@
                                             <div class="card-body">
                                                 <div class="row no-gutters">
                                                     <div class="col-6 align-items-center text-center">
-                                                 
-                                                   <a href="index.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top">   <i class='fas fa-home' style='font-size:24px'></i><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Home</span></a>												
-                                                    </div>
-                                                   
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Employee</span></a>												
-                                                    </div>
-                                                   
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="leave.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="reviews.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="reports.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">												
-                                                        <a href="manage.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>												
-                                                    </div>
-                                                    <div class="col-6 align-items-center shadow-none text-center">											
-                                                        <a href="settings.html" class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>												
-                                                    </div>
-                                                   
+                                                         
+                                                        <a href="index.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top">   <i class='fas fa-home' style='font-size:24px'></i><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Home</span></a>												
+                                                         </div>
+                                                        
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="/company" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="/employee" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Employee</span></a>												
+                                                         </div>
+                                                        
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="/leave" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="reviews.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="/teameport" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">												
+                                                             <a href="manage.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>												
+                                                         </div>
+                                                         <div class="col-6 align-items-center shadow-none text-center">											
+                                                             <a href="settings.html" class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>												
+                                                         </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     
                                     <!-- /Sidebar -->
                                     
